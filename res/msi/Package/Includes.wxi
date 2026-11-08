@@ -2,15 +2,15 @@
 <Include xmlns="http://wixtoolset.org/schemas/v4/wxs">
 
 	<!--$PreVarsStart$-->
-	<?define Version="1.5.1.29874734" ?>
+	<?define Version="1.5.1.29902498" ?>
 	<?define Manufacturer="Purslane Tech Pte. Ltd." ?>
 	<?define Product="RustDesk" ?>
 	<?define Description="RustDesk Installer" ?>
 	<?define ProductLower="rustdesk" ?>
 	<?define RegKeyRoot=".$(var.ProductLower)" ?>
 	<?define RegKeyInstall="$(var.RegKeyRoot)\Install" ?>
-	<?define BuildDir="D:\React_Native_Development\rustdesk-client-bushido\flutter\build\windows\x64\runner\Release" ?>
-	<?define BuildDate="2026-10-20 00:39" ?>
+	<?define BuildDir="D:\React_Native_Development\rustdesk-client-bushido\rustdesk" ?>
+	<?define BuildDate="2026-11-08 17:36" ?>
 
 	<!-- The UpgradeCode must be consistent for each product. ! -->
 	<?define UpgradeCode = "d3dc41e3-3c37-5d52-bb47-f6673705c01b" ?>

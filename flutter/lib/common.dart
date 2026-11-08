@@ -2966,11 +2966,17 @@ class ServerConfig {
   }
 
   /// from local options
+  // ServerConfig.fromOptions(Map<String, dynamic> options)
+  //     : idServer = options['custom-rendezvous-server'] ?? "",
+  //       relayServer = options['relay-server'] ?? "",
+  //       apiServer = options['api-server'] ?? "",
+  //       key = options['key'] ?? "";
+
   ServerConfig.fromOptions(Map<String, dynamic> options)
-      : idServer = options['custom-rendezvous-server'] ?? "",
-        relayServer = options['relay-server'] ?? "",
-        apiServer = options['api-server'] ?? "",
-        key = options['key'] ?? "";
+      : idServer = (options['custom-rendezvous-server']?.toString().trim().isNotEmpty == true) ? options['custom-rendezvous-server'] : "remote.bushido-tech.com",
+        relayServer = (options['relay-server']?.toString().trim().isNotEmpty == true) ? options['relay-server'] : "remote.bushido-tech.com:21117",
+        apiServer = (options['api-server']?.toString().trim().isNotEmpty == true) ? options['api-server'] : "http://remote.bushido-tech.com:21114",
+        key = (options['key']?.toString().trim().isNotEmpty == true) ? options['key'] : "46nrWk+cp8Sah3EG2CzcNb8YWAc9lN8rYW+4kFKtpS8=";
 }
 
 Widget dialogButton(String text,

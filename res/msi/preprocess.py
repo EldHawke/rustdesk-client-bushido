@@ -439,12 +439,31 @@ def gen_conn_type(args):
         func,
     )
 
+# def gen_content_between_tags(filename, tag_start, tag_end, func):
+#     target_file = Path(sys.argv[0]).parent.joinpath(filename)
+#     lines, index_start = read_lines_and_start_index(target_file, tag_start, tag_end)
+#     if lines is None:
+#         return False
+
+#     func(lines, index_start)
+
+#     with open(target_file, "w", encoding="utf-8") as f:
+#         f.writelines(lines)
+
+#     return True
+
 def gen_content_between_tags(filename, tag_start, tag_end, func):
     target_file = Path(sys.argv[0]).parent.joinpath(filename)
     lines, index_start = read_lines_and_start_index(target_file, tag_start, tag_end)
     if lines is None:
         return False
 
+    index_end = next(i for i, line in enumerate(lines) if tag_end in line)
+    if index_end <= index_start:
+        print(f'Error: invalid marker order in {filename}')
+        return False
+
+    del lines[index_start + 1:index_end]
     func(lines, index_start)
 
     with open(target_file, "w", encoding="utf-8") as f:
