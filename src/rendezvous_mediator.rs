@@ -680,6 +680,7 @@ impl RendezvousMediator {
             false,
             Default::default(),
             String::new(),
+            String::new(),
             meta,
         )
         .await
@@ -695,6 +696,7 @@ impl RendezvousMediator {
         initiate: bool,
         socket_addr_v6: bytes::Bytes,
         webrtc_sdp_answer: String,
+        requester_id: String,
         meta: ConnectionMeta,
     ) -> ResultType<()> {
         let peer_addr = AddrMangle::decode(&socket_addr);
@@ -744,6 +746,7 @@ impl RendezvousMediator {
             peer_addr,
             secure,
             is_ipv4(&self.addr),
+            requester_id,
             meta,
         )
         .await;
@@ -801,6 +804,7 @@ impl RendezvousMediator {
             true,
             true,
             socket_addr_v6,
+            String::new(),
             String::new(),
             meta,
         )
@@ -1055,6 +1059,7 @@ impl RendezvousMediator {
             ph.control_permissions.clone().into_option(),
             ph.controlled_context.clone().into_option(),
         );
+        let requester_id = ph.requester_id.clone();
         // The controller's force_relay alone does not say whether ICE must be Relay-only; its
         // offer envelope does. `ice_policy: "all"` means the relay was forced by the transport
         // (ws), so answer with full ICE and let a direct pair form.
@@ -1126,6 +1131,7 @@ impl RendezvousMediator {
                     true,
                     socket_addr_v6.clone(),
                     webrtc_sdp_answer.clone(),
+                    requester_id,
                     meta,
                 )
                 .await;

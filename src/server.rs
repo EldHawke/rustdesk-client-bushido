@@ -371,6 +371,7 @@ pub async fn create_relay_connection(
     peer_addr: SocketAddr,
     secure: bool,
     ipv4: bool,
+    requester_id: String,
     meta: ConnectionMeta,
 ) {
     if let Err(err) = create_relay_connection_(
@@ -380,6 +381,7 @@ pub async fn create_relay_connection(
         peer_addr,
         secure,
         ipv4,
+        requester_id,
         meta,
     )
     .await
@@ -400,6 +402,7 @@ async fn create_relay_connection_(
     peer_addr: SocketAddr,
     secure: bool,
     ipv4: bool,
+    requester_id: String,
     meta: ConnectionMeta,
 ) -> ResultType<()> {
     let mut stream = socket_client::connect_tcp(
@@ -411,6 +414,7 @@ async fn create_relay_connection_(
     let licence_key = crate::get_key(true).await;
     msg_out.set_request_relay(RequestRelay {
         licence_key,
+        id: requester_id,
         uuid,
         ..Default::default()
     });
