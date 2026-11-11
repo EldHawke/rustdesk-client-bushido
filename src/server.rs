@@ -414,7 +414,8 @@ async fn create_relay_connection_(
     let licence_key = crate::get_key(true).await;
     msg_out.set_request_relay(RequestRelay {
         licence_key,
-        id: requester_id,
+        //id: requester_id,
+        id: Config::get_id(),
         uuid,
         ..Default::default()
     });
