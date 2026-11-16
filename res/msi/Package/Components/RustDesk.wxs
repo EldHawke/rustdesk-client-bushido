@@ -154,274 +154,274 @@
 			<ComponentRef Id="App.StartupFolder.ShortcutTray" />
 
 			<!--$AutoComonentStart$-->
-			<Component Guid="e74bb4a1-e0a6-4602-add3-eae5b6ee00d4" >
+			<Component Guid="621ed6b8-fccc-4424-849b-9a69e6c5ce0a" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/desktop_drop_plugin.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="0997c1c0-4d6a-4deb-9746-3f0ecabb3ca5" >
+			<Component Guid="f5e91ed8-273f-4575-9b48-e8627efefc69" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/desktop_multi_window_plugin.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="24f64048-5399-462d-9308-dabb08d93226" >
+			<Component Guid="c2140e7e-8b55-417a-bc39-bbb5b8d20503" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/dylib_virtual_display.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="e5ca45b9-cad4-408b-89b5-afca3056b3f2" >
+			<Component Guid="68f40b5c-3043-48db-ab77-097daa1d3980" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/file_selector_windows_plugin.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="1026ac80-5e98-499a-8209-83c1e7ab3c5a" >
+			<Component Guid="ae1c3f10-7167-41c6-aa9e-06c41406da3a" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/flutter_custom_cursor_plugin.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="85abec7b-5bfd-4368-91ed-15a3ae869404" >
+			<Component Guid="12bd908b-ecd0-4368-ac86-07d4bbcf1813" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/flutter_gpu_texture_renderer_plugin.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="49486a3b-2b21-4e17-97df-6ec151d40fb9" >
+			<Component Guid="f075030c-085e-4d7a-b296-4a4688330a8a" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/flutter_windows.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="5b5d51fb-e578-4df9-b5ba-a05e53b0878c" >
+			<Component Guid="47b04e4a-7c34-4cd4-8336-a2ec6b241795" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/librustdesk.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="d5954d68-ebdc-42d7-b720-82de7559777a" >
+			<Component Guid="3baeaebd-d42e-4ac2-b802-2314155e3f98" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/screen_retriever_plugin.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="930fd215-bb6e-4e25-8291-faa8e19c4b89" >
+			<Component Guid="9c83376b-e851-4edb-adb5-c5031b9c4819" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/texture_rgba_renderer_plugin.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="4c8d334d-967b-4ca4-a5e5-9372747f48a1" >
+			<Component Guid="e33e911f-0a95-4e39-832f-b13a5084718b" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/uni_links_desktop_plugin.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="73ad15be-2cef-474c-92f7-8e90c8a636ba" >
+			<Component Guid="4610b427-7378-420e-8ef0-c9825eb39d57" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/url_launcher_windows_plugin.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="18fc79a4-7129-4163-9182-b4d6cd0a74f0" >
+			<Component Guid="47e59ed5-08d8-4fa1-a499-d2b8e5785347" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/window_manager_plugin.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="389ddc83-5fe1-4cb6-9e30-d52b545ea744" >
+			<Component Guid="e6257a2c-a566-4ce9-88a2-d10a9646c96f" >
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/window_size_plugin.dll" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="bf854ee5-01ed-4c29-adfa-cf2e1d315565" Subdirectory="data">
+			<Component Guid="ccf6a939-38c4-4e0a-aa3f-1479deb54def" Subdirectory="data">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/app.so" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="d5e3d2a2-b734-432e-a44c-3580c3734f75" Subdirectory="data">
+			<Component Guid="97598a0b-457b-47c3-935d-9ac54f1eac3c" Subdirectory="data">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/icudtl.dat" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="28cc1bac-1935-4209-bc5a-c7fa20db6495" Subdirectory="data\flutter_assets">
+			<Component Guid="ecfcbfe0-65bf-4e5f-b30c-0136da5c9cd1" Subdirectory="data\flutter_assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/AssetManifest.bin" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="33edd7fc-19dd-4e47-9583-f49790acd4b8" Subdirectory="data\flutter_assets">
+			<Component Guid="a11b9abb-a6aa-4662-8792-d823f736e26c" Subdirectory="data\flutter_assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/AssetManifest.json" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="7da24ab5-8c24-47ae-885b-b1886170cea3" Subdirectory="data\flutter_assets">
+			<Component Guid="a6fb0b62-f5af-43ef-a0f4-3d0a39365da1" Subdirectory="data\flutter_assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/FontManifest.json" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="4ee33503-c5ff-4972-89a3-9b3c9039a31d" Subdirectory="data\flutter_assets">
+			<Component Guid="7ed41b52-ef56-47e6-a324-df90fe86b08a" Subdirectory="data\flutter_assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/NOTICES.Z" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="39e2f063-67b4-42a0-8a69-0c997657f2a3" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="ca87a994-b54a-4b61-b07f-edd0815bd647" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/actions.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="3c7cbaf1-50a5-49bc-a87f-8cfd371d6403" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="57453608-6657-43bf-a194-4c08f253741f" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/actions_mobile.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="5f46952c-88e7-4eed-8236-4446d1c41c30" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="256d6b3a-89b2-49b3-b6b0-3299190050bb" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/address_book.ttf" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="5eafc426-4508-420c-92aa-c36740cc8da3" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="3df6c767-1002-4a0c-b097-92f710a4eff9" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/android.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="920fa103-cd05-4d6f-bd18-d8b7cb30cc29" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="3b9f029c-07c8-4d06-8395-19fae6a063cb" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/arrow.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="73eff055-0904-4e2f-abe5-6fcd05d77e2b" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="c75f55e9-e254-46a1-8547-bd9d2eb5b5f1" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/auth-apple.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="9b61c02c-2610-4850-81e1-bbc4520bf6ce" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="fa61eedf-1c45-4025-9a8d-557720c1bbaf" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/auth-auth0.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="ac28db58-41e2-4c88-9f2b-e13bd3542b34" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="76924d3d-4221-4b63-b773-47f37c2a8865" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/auth-default.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="bbfcb621-8338-4b37-a757-45d788d94963" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="c2b5aad8-1762-4ee6-aac4-749f00b7a912" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/auth-facebook.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="db410d80-728d-414b-a081-e02f26da966e" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="c176d6f7-8a54-4bd1-af3d-9cde9f24c6b0" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/auth-github.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="7ad44795-7173-4faa-bcd1-ea759cf77106" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="7b8b3d37-aa8b-47fe-9331-de1aabb88322" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/auth-gitlab.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="d61341aa-28cc-4552-b4d6-f8a83d6b8150" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="28d52371-45ea-4032-b14c-ee27fb13cd2f" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/auth-google.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="96650598-b7f9-45a6-827c-4f2a0a21ba2d" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="522b02c9-e660-4ffb-83db-a87ca251a79c" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/auth-microsoft.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="1e5f5643-b305-4168-86a7-daf1d9ff4c6e" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="b3a5b485-7d77-49d5-9ad6-64344ab70a84" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/auth-okta.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="a3be0b87-9023-4eeb-9276-a505afc81675" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="c14c9808-93dc-454f-b7a1-87b758fb8d44" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/call_end.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="6af20351-600a-44e1-9aaa-98fdddbb2a21" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="846d4cfd-f9cd-42e7-8b61-f0f6f8d4eb90" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/call_wait.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="de9025f5-5d3e-4291-b3ef-a68f0b0d0e38" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="8a8a30a8-bf7b-4a96-9407-ab550277440b" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/chat.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="d01ee2e7-d19b-49ce-b5b3-5c192b2dd4c1" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="f6f006b3-4fa8-4cff-8363-0ac77c1688c0" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/chat2.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="6a89b783-893b-48ec-8f2c-1667e31d2bd6" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="fb2ad7c7-9eca-4984-b1e9-11c207dbc921" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/checkbox-outline.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="8fd8c05d-8d10-4485-9257-421b88f098fa" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="a53cbb2c-c132-4cbc-96e1-e0d3ee1bff99" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/chevron_up_chevron_down.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="7e933bab-7946-4bd6-9785-51289802aad7" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="e602998b-765c-4cbb-9384-ceda490147ac" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/close.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="d0466194-bc53-410c-b96c-dc94e77061f5" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="f81de285-fe3e-4300-a643-557cc4e08649" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/device_group.ttf" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="25f8624c-3166-4dfd-9251-48cb52ce12a8" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="c8a94998-881b-4a8c-99b9-4981b9f73516" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/display.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="aa4faaac-2161-4139-819e-a17e0d716b3d" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="51a6a3b7-c3d6-44a9-9f20-0179e315adca" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/display_switcher.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="f6ef22e9-a107-48ce-be3c-7817cfc45e53" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="039e0f4c-2084-40db-8c20-3e33df9fc27d" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/dots.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="3ce463ed-7e47-4c49-a4c6-90e65d7f8ef7" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="3bb83f56-80db-4d0f-800d-b08941a3d432" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/file.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="e40c3f98-a1e0-4835-baae-d0dab4fb317f" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="c5b8302e-ed14-4f05-abfa-c463accd955d" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/file_transfer.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="fd30d7e7-d7af-4cae-b1e2-0448c1ac3824" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="df09775f-b3cf-4d5a-8f53-7274a75fd6d0" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/folder.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="eb1443ff-cd8a-4655-8c94-c8243d7e091c" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="c956d3c1-ef16-430f-b3d7-15f3943593ca" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/folder_new.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="d62d8ef5-a1b5-44ba-bf5c-05eaf6b7eef4" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="24cdb537-e98a-47a4-a5ba-9785472ad77c" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/fullscreen.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="a3f80a6b-8d58-46b7-87fe-258b5d33f540" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="a6ef7c11-e53c-486b-ac8a-7daa561416f3" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/fullscreen_exit.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="e61289a2-32c3-4bec-b356-a3617cb62db1" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="94ed6206-3c80-4288-80d2-23cda756fdd0" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/gestures.ttf" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="79084669-e3d6-4565-8494-d0adcd46212a" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="ad6a7b59-46a2-4efb-8ccc-df8931c1d842" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/home.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="c7696ce1-ed4f-453f-9b64-c1c14eba38dc" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="3d9a753c-b55b-4996-88b8-0d9acf851ed7" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/icon.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="28ab7e07-f602-429a-b492-475a68881121" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="b4aecc03-8492-4cc9-bbc8-c2308fea97e4" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/insecure.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="a69d13c0-4e3b-4371-88b5-22863cc7c2bd" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="24daa634-deef-4bd0-ad7d-bee02040f339" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/insecure_relay.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="0a26a2a5-8d24-4d85-9625-f52886f0fa77" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="890e1a40-e9b9-41a1-9f39-e3bc28c0bc71" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/kb_layout_iso.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="fc671d8c-0e69-4aeb-a1ac-1f3a1188cd07" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="a0f6be10-cf2a-4df8-aa8e-a7bf70379801" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/kb_layout_not_iso.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="efcecec3-e135-416f-b771-836d4907ac10" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="50501eb9-a91e-4a6f-9267-e43c6e12c06a" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/keyboard_mouse.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="d1bdf572-26c6-4e2c-b06d-beef54db1ece" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="cac86829-d526-415d-afb9-8ec002634006" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/linux.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="4be854e4-3a59-45fe-8543-879f73af2a28" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="210c27ba-613e-4a25-a45b-5b472cd1a2bf" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/mac.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="d62dab9d-fa9f-4717-87dd-34ccaf0fa208" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="adf25d35-4cf7-44ef-9c6b-c9e9f84889e0" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/message_24dp_5F6368.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="911bfd91-41ce-4cec-a1ad-da8e5aa2f35e" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="699f3706-4932-4a04-b8e0-4b1f2ee2a39a" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/more.ttf" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="813e9f96-591d-4add-ba17-e95aced55486" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="c24bfb29-2659-42af-a46d-a37b85f25dbb" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/peer_searchbar.ttf" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="b59fdeb4-3eb7-4d6d-8301-e0e358cf21bc" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="5d6a994d-b911-488d-a29e-982d4ce144f1" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/pinned.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="bc2f59ec-3e4a-438c-9762-651b7e3ebb18" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="9cea608f-38f1-4762-a051-b1b5dab4dcb0" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/rec.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="9ed4edfa-cde6-4839-9ef1-03e5cd745ccc" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="7ec8b499-f68a-42c2-b443-d3a62ff6e018" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/record_screen.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="d30916fa-3f0d-4527-8795-0c835bdd1a1f" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="0e31f633-7508-4582-8c8d-0e74377e3ce3" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/refresh.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="4e42c31b-0717-4459-ae66-227071dd7e9f" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="6117cda6-bd90-47f7-9ee4-2d5a4a3f2aed" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/scam.png" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="d1684f1d-9de9-433e-9df7-b00d98ce6898" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="f38cdcf4-2a53-44f8-ab4e-7567b18e2b9e" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/screen.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="c0ab0e58-2068-4fac-8821-1a0eb754ebaa" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="f028de78-c156-4a36-9a96-ff1ae371a1bb" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/search.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="ec1e304f-ebce-47a9-a366-f031756696de" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="db8960f4-4719-4a7a-a64a-170cadeb1d21" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/secure.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="690861c7-d3a1-4d27-8f64-a0c907d82f87" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="d078e447-c53f-44c4-8a6a-0e96ed8180e6" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/secure_relay.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="cde8f51a-3509-4d4c-a9cc-e8a58e642171" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="102dbf10-6d10-4e9c-827e-d86b58dacc8e" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/tabbar.ttf" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="829e772d-1eb2-4363-b446-269e6b1bf1a6" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="bba21180-2da1-4881-a1b5-7e3debe3b583" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/transfer.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="9c08b4f9-a2a7-4d58-8fc4-92b670a3432b" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="ec995c65-a285-429f-8f0d-43b7eb65e26e" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/trash.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="77c5817a-a71b-4002-af9e-2f6cc568428e" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="51f03f71-86cc-4e24-885b-86aea708f0fe" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/unpinned.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="7c701af9-1c78-46db-b812-78c6d881865d" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="d0e100d2-6054-44d2-8802-3f0459cf06db" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/voice_call.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="e182c285-5b4c-4e08-83f0-a45102ed5c01" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="9dbb6d7e-10c6-4957-9b18-0f95684c4de5" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/voice_call_waiting.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="f47c751d-aafc-4271-957c-129fbfd2c744" Subdirectory="data\flutter_assets\assets">
+			<Component Guid="a60a16c8-5206-4bc4-9aee-a2d50b9fdb88" Subdirectory="data\flutter_assets\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/assets/win.svg" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="3049eae7-055f-4b05-95dc-3e95951aec1d" Subdirectory="data\flutter_assets\fonts">
+			<Component Guid="afc53b9e-c66c-444d-a3b1-7a803184258b" Subdirectory="data\flutter_assets\fonts">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/fonts/MaterialIcons-Regular.otf" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="fdc5c489-db1b-4a41-a590-c64ffdaa5500" Subdirectory="data\flutter_assets\shaders">
+			<Component Guid="d73157e9-43b4-4958-807c-e4cdf1e55a2a" Subdirectory="data\flutter_assets\shaders">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/shaders/ink_sparkle.frag" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="430b0455-50ea-4f7e-8dd2-9e6244f71979" Subdirectory="data\flutter_assets\packages\window_manager\images">
+			<Component Guid="f72d094b-80ff-4bcb-9372-7308ecf6cb60" Subdirectory="data\flutter_assets\packages\window_manager\images">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/packages/window_manager/images/ic_chrome_close.png" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="00b2eb63-5004-4f3e-9305-ff2587564963" Subdirectory="data\flutter_assets\packages\window_manager\images">
+			<Component Guid="ac788cbe-91af-47b8-945d-91a29ed5baf8" Subdirectory="data\flutter_assets\packages\window_manager\images">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/packages/window_manager/images/ic_chrome_maximize.png" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="d7c00e55-d224-4e5c-b09f-72f7d6b74a36" Subdirectory="data\flutter_assets\packages\window_manager\images">
+			<Component Guid="655be138-7966-4987-aa63-9d4d6235ba12" Subdirectory="data\flutter_assets\packages\window_manager\images">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/packages/window_manager/images/ic_chrome_minimize.png" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="a7a92085-c8e2-48cd-8e8d-19fe3b3bdbb6" Subdirectory="data\flutter_assets\packages\window_manager\images">
+			<Component Guid="eda96800-f412-4e5d-b5ba-9a2b2bdc8aa4" Subdirectory="data\flutter_assets\packages\window_manager\images">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/packages/window_manager/images/ic_chrome_unmaximize.png" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="030cc47a-7c2f-4591-bb02-0c7af76991fa" Subdirectory="data\flutter_assets\packages\wakelock_plus\assets">
+			<Component Guid="e4d954ad-22d5-4de5-bdc8-5ff71ef1f53a" Subdirectory="data\flutter_assets\packages\wakelock_plus\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/packages/wakelock_plus/assets/no_sleep.js" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="475e8652-6119-4e5a-b214-391cd74900df" Subdirectory="data\flutter_assets\packages\flex_color_picker\assets">
+			<Component Guid="8658f31b-7d41-41e2-8d72-172ecdbef253" Subdirectory="data\flutter_assets\packages\flex_color_picker\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/packages/flex_color_picker/assets/opacity.png" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="9b06235d-5f9c-454f-9572-3ff41b5a8bae" Subdirectory="data\flutter_assets\packages\dash_chat_2\assets">
+			<Component Guid="b2392b83-234f-4c6d-b8be-d2e2c6e8fc24" Subdirectory="data\flutter_assets\packages\dash_chat_2\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/packages/dash_chat_2/assets/placeholder.png" KeyPath="yes" Checksum="yes" />
 			</Component>
-			<Component Guid="7822bec8-53a9-44c3-ba36-eaa9bcd6ea10" Subdirectory="data\flutter_assets\packages\dash_chat_2\assets">
+			<Component Guid="bd5ba97a-7934-4ebc-88ef-0be1767f79d3" Subdirectory="data\flutter_assets\packages\dash_chat_2\assets">
 				<File Source="D:/React_Native_Development/rustdesk-client-bushido/rustdesk/data/flutter_assets/packages/dash_chat_2/assets/profile_placeholder.png" KeyPath="yes" Checksum="yes" />
 			</Component>
 			<!--$AutoComponentEnd$-->

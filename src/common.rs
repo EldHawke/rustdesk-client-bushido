@@ -1011,9 +1011,9 @@ pub fn is_modifier(evt: &KeyEvent) -> bool {
 }
 
 pub fn check_software_update() {
-    if is_custom_client() {
-        return;
-    }
+    // if is_custom_client() {
+    //     return;
+    // }
     let opt = LocalConfig::get_option(keys::OPTION_ENABLE_CHECK_UPDATE);
     if config::option2bool(keys::OPTION_ENABLE_CHECK_UPDATE, &opt) {
         std::thread::spawn(move || allow_err!(do_check_software_update()));
@@ -1302,8 +1302,20 @@ pub fn get_webrtc_enabled() -> bool {
 
 pub fn get_local_option(key: &str) -> String {
     let v = LocalConfig::get_option(key);
-    if key == keys::OPTION_ENABLE_UDP_PUNCH
-        || key == keys::OPTION_ENABLE_IPV6_PUNCH
+    if v.is_empty() && (key == keys::OPTION_ENABLE_CAMERA || key == keys::OPTION_ENABLE_AUDIO) {
+        return "N".to_owned();
+    }
+    if v.is_empty() && key == keys::OPTION_DIRECT_SERVER {
+        return "Y".to_owned();
+    }
+    if v.is_empty() && key == "disable-audio" {
+        return "Y".to_owned();
+    }
+    
+    if 
+        // key == keys::OPTION_ENABLE_UDP_PUNCH
+        // || 
+        key == keys::OPTION_ENABLE_IPV6_PUNCH
         || key == keys::OPTION_ENABLE_WEBRTC
     {
         if v.is_empty() {

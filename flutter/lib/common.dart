@@ -2975,7 +2975,7 @@ class ServerConfig {
   ServerConfig.fromOptions(Map<String, dynamic> options)
       : idServer = (options['custom-rendezvous-server']?.toString().trim().isNotEmpty == true) ? options['custom-rendezvous-server'] : "remote.bushido-tech.com",
         relayServer = (options['relay-server']?.toString().trim().isNotEmpty == true) ? options['relay-server'] : "remote.bushido-tech.com:21117",
-        apiServer = (options['api-server']?.toString().trim().isNotEmpty == true) ? options['api-server'] : "http://remote.bushido-tech.com:21114",
+        apiServer = (options['api-server']?.toString().trim().isNotEmpty == true) ? options['api-server'] : "",
         key = (options['key']?.toString().trim().isNotEmpty == true) ? options['key'] : "46nrWk+cp8Sah3EG2CzcNb8YWAc9lN8rYW+4kFKtpS8=";
 }
 
@@ -4071,20 +4071,35 @@ void earlyAssert() {
   assert('\1' == '1');
 }
 
+// void checkUpdate() {
+//   if (!isWeb) {
+//     if (!bind.isCustomClient()) {
+//       platformFFI.registerEventHandler(
+//           kCheckSoftwareUpdateFinish, kCheckSoftwareUpdateFinish,
+//           (Map<String, dynamic> evt) async {
+//         if (evt['url'] is String) {
+//           stateGlobal.updateUrl.value = evt['url'];
+//         }
+//       });
+//       Timer(const Duration(seconds: 1), () async {
+//         bind.mainGetSoftwareUpdateUrl();
+//       });
+//     }
+//   }
+// }
+
 void checkUpdate() {
   if (!isWeb) {
-    if (!bind.isCustomClient()) {
-      platformFFI.registerEventHandler(
-          kCheckSoftwareUpdateFinish, kCheckSoftwareUpdateFinish,
-          (Map<String, dynamic> evt) async {
-        if (evt['url'] is String) {
-          stateGlobal.updateUrl.value = evt['url'];
-        }
-      });
-      Timer(const Duration(seconds: 1), () async {
-        bind.mainGetSoftwareUpdateUrl();
-      });
-    }
+    platformFFI.registerEventHandler(
+        kCheckSoftwareUpdateFinish, kCheckSoftwareUpdateFinish,
+        (Map<String, dynamic> evt) async {
+      if (evt['url'] is String) {
+        stateGlobal.updateUrl.value = evt['url'];
+      }
+    });
+    Timer(const Duration(seconds: 1), () async {
+      bind.mainGetSoftwareUpdateUrl();
+    });
   }
 }
 
