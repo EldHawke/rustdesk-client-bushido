@@ -2,18 +2,18 @@
 <Include xmlns="http://wixtoolset.org/schemas/v4/wxs">
 
 	<!--$PreVarsStart$-->
-	<?define Version="1.5.1.29905906" ?>
+	<?define Version="1.5.1.29915536" ?>
 	<?define Manufacturer="Purslane Tech Pte. Ltd." ?>
-	<?define Product="DeskGate" ?>
-	<?define Description="DeskGate Remote Desktop Installer" ?>
-	<?define ProductLower="rustdesk" ?>
+	<?define Product="RemVault" ?>
+	<?define Description="RemVault Installer" ?>
+	<?define ProductLower="remvault" ?>
 	<?define RegKeyRoot=".$(var.ProductLower)" ?>
 	<?define RegKeyInstall="$(var.RegKeyRoot)\Install" ?>
 	<?define BuildDir="D:\React_Native_Development\rustdesk-client-bushido\rustdesk" ?>
-	<?define BuildDate="2026-11-13 22:10" ?>
+	<?define BuildDate="2026-11-17 17:02" ?>
 
 	<!-- The UpgradeCode must be consistent for each product. ! -->
-	<?define UpgradeCode = "d3dc41e3-3c37-5d52-bb47-f6673705c01b" ?>
+	<?define UpgradeCode = "eb93d313-7b89-5974-a054-fc25ab69aa5f" ?>
 	<!--$PreVarsEnd$-->
 
 </Include>

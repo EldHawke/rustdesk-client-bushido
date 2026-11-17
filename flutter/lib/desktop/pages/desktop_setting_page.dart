@@ -619,12 +619,14 @@ class _GeneralState extends State<_General> {
           'Enable TCP hole punching',
           kOptionEnableTcpPunch,
           isServer: false,
+          fakeValue: true,
         ),
         _OptionCheckBox(
           context,
           'Enable UDP hole punching',
           kOptionEnableUdpPunch,
           isServer: false,
+          fakeValue: true,
         ),
         _OptionCheckBox(
           context,
@@ -1240,9 +1242,9 @@ class _SafetyState extends State<_Safety> with AutomaticKeepAliveClientMixin {
                 context, 'Enable file transfer', kOptionEnableFileTransfer,
                 enabled: enabled, fakeValue: fakeValue),
             _OptionCheckBox(context, 'Enable audio', kOptionEnableAudio,
-                enabled: enabled, fakeValue: fakeValue),
+                enabled: enabled, fakeValue: false),
             _OptionCheckBox(context, 'Enable camera', kOptionEnableCamera,
-                enabled: enabled, fakeValue: fakeValue),
+                enabled: enabled, fakeValue: false),
             _OptionCheckBox(context, 'Enable terminal', kOptionEnableTerminal,
                 enabled: enabled, fakeValue: fakeValue),
             _OptionCheckBox(

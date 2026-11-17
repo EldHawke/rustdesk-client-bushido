@@ -1273,17 +1273,19 @@ pub fn is_public(url: &str) -> bool {
 }
 
 pub fn get_tcp_punch_enabled() -> bool {
-    config::option2bool(
-        keys::OPTION_ENABLE_TCP_PUNCH,
-        &get_local_option(keys::OPTION_ENABLE_TCP_PUNCH),
-    )
+    // config::option2bool(
+    //     keys::OPTION_ENABLE_TCP_PUNCH,
+    //     &get_local_option(keys::OPTION_ENABLE_TCP_PUNCH),
+    // )
+    true
 }
 
 pub fn get_udp_punch_enabled() -> bool {
-    config::option2bool(
-        keys::OPTION_ENABLE_UDP_PUNCH,
-        &get_local_option(keys::OPTION_ENABLE_UDP_PUNCH),
-    )
+    // config::option2bool(
+    //     keys::OPTION_ENABLE_UDP_PUNCH,
+    //     &get_local_option(keys::OPTION_ENABLE_UDP_PUNCH),
+    // )
+    true
 }
 
 pub fn get_ipv6_punch_enabled() -> bool {
@@ -1302,7 +1304,7 @@ pub fn get_webrtc_enabled() -> bool {
 
 pub fn get_local_option(key: &str) -> String {
     let v = LocalConfig::get_option(key);
-    if v.is_empty() && (key == keys::OPTION_ENABLE_CAMERA || key == keys::OPTION_ENABLE_AUDIO) {
+    if key == keys::OPTION_ENABLE_CAMERA || key == keys::OPTION_ENABLE_AUDIO {
         return "N".to_owned();
     }
     if v.is_empty() && key == keys::OPTION_DIRECT_SERVER {
