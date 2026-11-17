@@ -30,32 +30,32 @@
 
 		<!-- Component that persists the property values to the registry so they are available during an upgrade/modify -->
 		<DirectoryRef Id="INSTALLFOLDER_INNER">
-			<Component Id="Product.Registry.PersistedStartMenuShortcutProperties1" Guid="fa2107e0-e6f7-41b9-9514-215c3bdcf1f6" Condition="STARTMENUSHORTCUTS = 1 OR STARTMENUSHORTCUTS = &quot;Y&quot; OR STARTMENUSHORTCUTS = &quot;y&quot;">
+			<Component Id="Product.Registry.PersistedStartMenuShortcutProperties1" Guid="be180a57-ac1e-46e1-bf3f-56d9eda13cee" Condition="STARTMENUSHORTCUTS = 1 OR STARTMENUSHORTCUTS = &quot;Y&quot; OR STARTMENUSHORTCUTS = &quot;y&quot;">
 				<RegistryKey Root="HKCR" Key="$(var.RegKeyRoot)">
 					<RegistryValue Type="string" Name="STARTMENUSHORTCUTS" Value="1" KeyPath="yes" />
 				</RegistryKey>
 			</Component>
-			<Component Id="Product.Registry.PersistedStartMenuShortcutProperties0" Guid="f58c28f4-9a55-4216-a6e0-da54020a9acf"  Condition="NOT (STARTMENUSHORTCUTS = 1 OR STARTMENUSHORTCUTS = &quot;Y&quot; OR STARTMENUSHORTCUTS = &quot;y&quot;)">
+			<Component Id="Product.Registry.PersistedStartMenuShortcutProperties0" Guid="3ea0ee97-5d78-453a-b8f0-07347fc66d5f"  Condition="NOT (STARTMENUSHORTCUTS = 1 OR STARTMENUSHORTCUTS = &quot;Y&quot; OR STARTMENUSHORTCUTS = &quot;y&quot;)">
 				<RegistryKey Root="HKCR" Key="$(var.RegKeyRoot)">
 					<RegistryValue Type="string" Name="STARTMENUSHORTCUTS" Value="0" KeyPath="yes" />
 				</RegistryKey>
 			</Component>
-			<Component Id="Product.Registry.PersistedDesktopShortcutProperties1" Guid="1aba6ae2-16a2-4ed5-bcd1-8a3eb1a8ffd5" Condition="DESKTOPSHORTCUTS = 1 OR DESKTOPSHORTCUTS = &quot;Y&quot; OR DESKTOPSHORTCUTS = &quot;y&quot;">
+			<Component Id="Product.Registry.PersistedDesktopShortcutProperties1" Guid="6cc4fabd-1273-4546-8191-05d2b3ffc020" Condition="DESKTOPSHORTCUTS = 1 OR DESKTOPSHORTCUTS = &quot;Y&quot; OR DESKTOPSHORTCUTS = &quot;y&quot;">
 				<RegistryKey Root="HKCR" Key="$(var.RegKeyRoot)">
 					<RegistryValue Type="string" Name="DESKTOPSHORTCUTS" Value="1" />
 				</RegistryKey>
 			</Component>
-			<Component Id="Product.Registry.PersistedDesktopShortcutProperties0" Guid="4d5fbc5e-d69d-4bb3-936d-ee697028a7fc" Condition="NOT (DESKTOPSHORTCUTS = 1 OR DESKTOPSHORTCUTS = &quot;Y&quot; OR DESKTOPSHORTCUTS = &quot;y&quot;)">
+			<Component Id="Product.Registry.PersistedDesktopShortcutProperties0" Guid="533e227e-324f-4f15-ab45-5e1e589d119d" Condition="NOT (DESKTOPSHORTCUTS = 1 OR DESKTOPSHORTCUTS = &quot;Y&quot; OR DESKTOPSHORTCUTS = &quot;y&quot;)">
 				<RegistryKey Root="HKCR" Key="$(var.RegKeyRoot)">
 					<RegistryValue Type="string" Name="DESKTOPSHORTCUTS" Value="0" />
 				</RegistryKey>
 			</Component>
-			<Component Id="Product.Registry.PersistedPrinterProperties1" Guid="df4ac4ec-3fd4-415b-91f0-52517fb10fbf" Condition="PRINTER = 1 OR PRINTER = &quot;Y&quot; OR PRINTER = &quot;y&quot;">
+			<Component Id="Product.Registry.PersistedPrinterProperties1" Guid="145def73-08f9-4c9e-a8ee-bd74877e819b" Condition="PRINTER = 1 OR PRINTER = &quot;Y&quot; OR PRINTER = &quot;y&quot;">
 				<RegistryKey Root="HKCR" Key="$(var.RegKeyRoot)">
 					<RegistryValue Type="string" Name="PRINTER" Value="1" />
 				</RegistryKey>
 			</Component>
-			<Component Id="Product.Registry.PersistedPrinterProperties0" Guid="f9ca7068-4e22-4e88-8007-b2d5a3b054c0" Condition="NOT (PRINTER = 1 OR PRINTER = &quot;Y&quot; OR PRINTER = &quot;y&quot;)">
+			<Component Id="Product.Registry.PersistedPrinterProperties0" Guid="f0d34b40-3a26-4559-aed3-9becec0afa64" Condition="NOT (PRINTER = 1 OR PRINTER = &quot;Y&quot; OR PRINTER = &quot;y&quot;)">
 				<RegistryKey Root="HKCR" Key="$(var.RegKeyRoot)">
 					<RegistryValue Type="string" Name="PRINTER" Value="0" />
 				</RegistryKey>

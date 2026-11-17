@@ -823,23 +823,23 @@ impl Connection {
                                         conn.inner.clone(), conn.can_sub_clipboard_service());
                                 }
                             } else if &name == "audio" {
-                                conn.audio = enabled;
-                                conn.send_permission(Permission::Audio, enabled).await;
-                                if conn.authorized {
-                                    if let Some(s) = conn.server.upgrade() {
-                                        if conn.is_authed_view_camera_conn() {
-                                            if conn.voice_calling || !conn.audio_enabled() {
-                                                s.write().unwrap().subscribe(
-                                                    super::audio_service::NAME,
-                                                    conn.inner.clone(), conn.audio_enabled());
-                                            }
-                                        } else {
-                                            s.write().unwrap().subscribe(
-                                                super::audio_service::NAME,
-                                                conn.inner.clone(), conn.audio_enabled());
-                                        }
-                                    }
-                                }
+                                conn.audio = false;
+                                conn.send_permission(Permission::Audio, false).await;
+                                // if conn.authorized {
+                                //     if let Some(s) = conn.server.upgrade() {
+                                //         if conn.is_authed_view_camera_conn() {
+                                //             if conn.voice_calling || !conn.audio_enabled() {
+                                //                 s.write().unwrap().subscribe(
+                                //                     super::audio_service::NAME,
+                                //                     conn.inner.clone(), conn.audio_enabled());
+                                //             }
+                                //         } else {
+                                //             s.write().unwrap().subscribe(
+                                //                 super::audio_service::NAME,
+                                //                 conn.inner.clone(), conn.audio_enabled());
+                                //         }
+                                //     }
+                                // }
                             } else if &name == "file" {
                                 conn.file = enabled;
                                 conn.send_permission(Permission::File, enabled).await;
@@ -2674,6 +2674,11 @@ impl Connection {
 
     #[inline]
     pub fn is_permission_enabled_locally(enable_prefix_option: &str) -> bool {
+        if enable_prefix_option == keys::OPTION_ENABLE_AUDIO
+            || enable_prefix_option == keys::OPTION_ENABLE_CAMERA
+        {
+            return false;
+        }
         #[cfg(feature = "flutter")]
         #[cfg(not(any(target_os = "android", target_os = "ios")))]
         {
@@ -2694,6 +2699,12 @@ impl Connection {
         enable_prefix_option: &str,
         control_permissions: &Option<ControlPermissions>,
     ) -> bool {
+        if enable_prefix_option == keys::OPTION_ENABLE_AUDIO
+            || enable_prefix_option == keys::OPTION_ENABLE_CAMERA
+        {
+            return false;
+        }
+
         use hbb_common::rendezvous_proto::control_permissions::Permission;
         if let Some(control_permissions) = control_permissions {
             let permission = match enable_prefix_option {

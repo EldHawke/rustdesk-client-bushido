@@ -2,7 +2,7 @@
 <Include xmlns="http://wixtoolset.org/schemas/v4/wxs">
 
 	<!--$PreVarsStart$-->
-	<?define Version="1.5.1.29915536" ?>
+	<?define Version="1.5.1.29915795" ?>
 	<?define Manufacturer="Purslane Tech Pte. Ltd." ?>
 	<?define Product="RemVault" ?>
 	<?define Description="RemVault Installer" ?>

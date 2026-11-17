@@ -1259,6 +1259,9 @@ pub fn main_set_env(key: String, value: Option<String>) -> SyncReturn<()> {
 pub fn main_set_local_option(key: String, value: String) {
     let is_texture_render_key = key.eq(keys::OPTION_TEXTURE_RENDER);
     let is_d3d_render_key = key.eq(keys::OPTION_ALLOW_D3D_RENDER);
+    if key == keys::OPTION_ENABLE_AUDIO || key == keys::OPTION_ENABLE_CAMERA {
+        return;
+    }    
     set_local_option(key, value.clone());
     let is_render_target =
         |session: &crate::flutter::FlutterSession| session.is_default() || session.is_view_camera();

@@ -1240,11 +1240,11 @@ class _SafetyState extends State<_Safety> with AutomaticKeepAliveClientMixin {
                 enabled: enabled, fakeValue: fakeValue),
             _OptionCheckBox(
                 context, 'Enable file transfer', kOptionEnableFileTransfer,
-                enabled: enabled, fakeValue: fakeValue),
+                enabled: enabled, fakeValue: fakeValue),            
             _OptionCheckBox(context, 'Enable audio', kOptionEnableAudio,
-                enabled: enabled, fakeValue: false),
+                isServer: false, enabled: false, fakeValue: false),
             _OptionCheckBox(context, 'Enable camera', kOptionEnableCamera,
-                enabled: enabled, fakeValue: false),
+                isServer: false, enabled: false, fakeValue: false),
             _OptionCheckBox(context, 'Enable terminal', kOptionEnableTerminal,
                 enabled: enabled, fakeValue: fakeValue),
             _OptionCheckBox(
